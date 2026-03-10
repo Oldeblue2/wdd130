@@ -1,0 +1,32 @@
+/* Add your CSS here to style your valentines day page */
+@font-face {
+    font-family: "Valentine Rose";
+    src: url(../fonts/Valentine_Rose.ttf);
+    font-family: Cherish;
+    src: url(../fonts/cherish_2/Cherish.ttf);
+}
+
+#wrapper {
+    background-color: #D39CB8;
+    border: 10px solid #B3001B;
+    border-radius: 5%;
+    width: 800px;
+    font-family: Cherish;
+    margin: 0 auto;
+    color: #3B3D40;
+}
+
+main :nth-child(2) {
+    border: 6px double #E7BBE3;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1, h2, ul, footer {
+    font-family: "Valentine Rose";
+}
+
+section {
+    margin: 0 auto;
+    padding: 10px;
+}

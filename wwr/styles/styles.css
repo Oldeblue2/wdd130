@@ -1,0 +1,181 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif;
+    color: #6AA090;
+}
+
+body {
+    font-size: 22px;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    grid-column: span 1;
+    text-align: center;
+    background: #5F5566;
+    color: #FFD7C2;
+    text-decoration: none;
+    padding: 35px
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background: #1C9C26;
+}
+
+body {
+    background: #33202A;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr 1fr 1fr;
+    background: #33202A;
+}
+
+header nav {
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+nav a:hover {
+    background: #33202A;
+    color: #FFFFFF;
+}
+
+.book, .join {
+    background: #5F5566;
+    color: #FFD7C2;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+#background {
+    background: #33202A;
+}
+
+.msg {
+    background: #33202A;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    color: #6AA090;
+}
+
+.msg p {
+    font-size: 0.8em;
+    color: #6AA090;
+    padding-bottom: 15px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background: #33202A;
+    color: #1C9C26;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer p {
+    grid-column-start: span 6;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+footer .links {
+    grid-column: span 3;
+    background: #5F5566;
+    color: #FFD7C2;
+    text-decoration: none;
+}
+
+footer .links:hover {
+    background: #000;
+    color: white;
+    text-decoration: underline;
+}
+
+.social a {
+    background: #33202A;
+    color: #33202A;
+}
+
+.home-title {
+    color: #1C9C26;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #1C9C26;
+}
+
+h2 {
+    margin: 0;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section image {
+    box-sizing: border-box;
+}
+
+.social {
+    box-sizing:border-box;
+}

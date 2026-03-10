@@ -1,0 +1,47 @@
+body {
+    background: #805E73
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+#wrapper {
+    border: 3px solid #243B4A;
+    background: #87BCDE;
+    width: 1024px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+main section {
+    width: 360px;
+    height: 360px;
+    padding: 8px;
+    border: 12px solid #243B4A;
+
+}
+
+header img {
+    float: left;
+}
+
+header h1 {
+    float: left;
+    margin-left: 69px;
+    margin-top: 58px;
+}
+
+header {
+    heaght: 200px;
+}
+
+nav {
+    flex: ;
+}
