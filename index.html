@@ -1,82 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Page</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
     <div id="wrapper">
         <header>
             <!-- This is a comment -->
-            <img src="images/logo.png" width=200 alt="Site Logo" >
-            <h1>Brother Alvey Portal Page</h1>
+            <img src="images/logo.jpg" width=200 alt="Site Logo">
+            <h1>David Cheney Portal Page</h1>
         </header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="wwr/">WWR</a></li>
-                <li><a href="ice/">Ice</a></li>
+                <li><a href="ice/">ICE</a></li>
                 <li><a href="#">Project</a></li>
             </ul>
         </nav>
         <main>
-            <section>Section 1</section>
-            <section>Section 2</section>
-            <section>Section 3</section>
+            <section><a href="wwr/"><img src="images/wwr.jpg" alt="White Water Rafting"></a></section>
+            <section><a href="ice/"><img src="images/ice.jpg" alt="A single ice cube"></a></section>
+            <section><a href="#"><img src="images/programming.jpg" alt="Programming Programmers"></a></section>
             <section>
-                <table>
+                <img src="images/pioneers.webp" alt="Web Pioneers">
+                <table class="greenTable" border="1">
+                    <thead>
+                        <tr>
+                            <th>Pioneer</th>
+                            <th>Inventioin</th>
+                            <th>Fun Fact</th>
+                        </tr>
+                    </thead>
                     <tr>
-                        <th>Pioneer</th>
-                        <th>Invention</th>
-                        <th>Fun Fact</th>
+                        <td>Sir Tim Berners-Lee</td>
+                        <td>HTML, HTTP, WWW, URL</td>
+                        <td>Knighted by the Queen of England</td>
                     </tr>
                     <tr>
-                        <th>Sir Tim Berners-Lee</th>
-                        <th>HTML, HTTP, WWW, URL</th>
-                        <th>Row 2, Col 3</th>
+                        <td>Vint Cerf</td>
+                        <td>Internet, TCP/IP</td>
+                        <td>Always wears a 3 peice suit</td>
                     </tr>
                     <tr>
-                        <th>Vint Cerf</th>
-                        <th>Internet, TCP/IP</th>
-                        <th>Always wears a 3 piece suit</th>
+                        <td>Bob Kahn</td>
+                        <td>Internet, TCP/IP</td>
+                        <td>boring</td>
                     </tr>
                     <tr>
-                        <th>Row 4, Col 1</th>
-                        <th>Row 4, Col 2</th>
-                        <th>Row 4, Col 3</th>
-                    </tr>
-                    <tr>
-                        <th>Row 5, Col 1</th>
-                        <th>Row 5, Col 2</th>
-                        <th>Row 5, Col 3</th>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>Marc Andreessen</td>
+                        <td>Browser</td>
+                        <td>Egg Shaped head, fast talker</td>
                     </tr>
                 </table>
             </section>
         </main>
         <footer>
-            <p>&copy; Alvey</p>
+            <p>&copy; David</p>
 
-            <div id=""contact">
-                <form action="#" method="post">
+            <div id="contact">
+                <h2>Contact Me</h2>
+                <form action="#" method="get">
                     <!-- Name -->
                     <label for="name">Name:</label>
-                    <input type="text" id="name" required><br><br>
+                    <input type="text" id="name" name="name" required>
 
                     <!-- Email -->
-                     
-                    <!-- Name -->
-                    <!-- Name -->
-                    <!-- Name -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <!-- Message -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="20" required></textarea>
+
+                    <!-- Newsletter Checkbox -->
+                    <div class="stretch">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                        <label for="newsletter">Subscribe to our newsletter</label>
+                    </div>
+                    <!-- Submit Button -->
+                    <input type="submit">
                 </form>
             </div>
+
         </footer>
     </div>
 </body>
+
 </html>
