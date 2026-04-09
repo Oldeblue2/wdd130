@@ -1,0 +1,88 @@
+<!-- Question 1
+ Could you please write a short HTML snippet for an unordered list containing three items: "Home", "About", and "Contact"? -->
+
+<ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+</ul>
+
+<!-- Question 2
+  Could you write a snippet that creates a hyperlink to https://www.google.com with the clickable text "Search Engine"? Also, please make sure the link opens in a new tab. -->
+
+<a href="https://www.google.com" target="_blank">Search Engine</a>
+
+<!-- Question 3
+  Could you write a snippet for an <img> tag that displays an image from the source logo.png and includes the alternative text "Company Logo"? -->
+
+<img src="logo.png" alt="Company Logo">
+
+<!-- Question 4
+   Could you write a snippet that creates a simple <form> with one text input field for a "Username" and a "Submit" button? Make sure the input field has a placeholder that says "Enter your username". -->
+
+<form>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" value="Enter your username">
+    <button type="submit">Submit</button>
+</form>
+
+<!-- Question 5
+ Could you write a snippet that uses the appropriate HTML5 semantic tags to define a navigation section containing a link, followed by the main content area of a page? -->
+
+<nav>
+    <a href="">link</a>
+</nav>
+<main></main>
+
+<!-- Question 6
+  How would you write a CSS rule to change the background color of all <h1> elements to lightblue and the text color to navy? -->
+
+h1 {
+background: lightblue;
+color: navy;
+}
+
+<!-- Question 7
+ How would you write a CSS rule to center an <img> element horizontally within its container? (Assume the container is a standard <div>). -->
+
+img {
+margin:0 auto;
+}
+
+<!-- Question 8
+ How would you write a CSS rule to make every second item (<li>) in a list have a background-color of gray? -->
+
+li:nth-of-type(even) {
+background: gray;
+}
+
+<!-- Question 9
+ How would you write a CSS rule to ensure that a <div> with the class .box always has a total width of 200px, even if you add 20px of padding and a 5px border to it? -->
+
+.box {
+max-width: 200px;
+}
+
+<!-- Question 10
+ How would you write a CSS rule to change the mouse cursor to a "pointer" (hand icon) when a user hovers over any <button> element? -->
+
+button:hover {
+cursor: pointer;
+}
+
+<!-- Question 11
+ How would you write a CSS rule for a container with the class .grid-container to turn it into a grid with three columns of equal width? -->
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+<!-- Question 12
+  How would you write a CSS rule to create a 20px gap between all rows and columns in that same .grid-container? -->
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
